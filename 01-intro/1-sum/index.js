@@ -5,5 +5,10 @@
  * @returns {number}
  */
 export default function sum(m, n) {
-
+  return m + n;
 }
+
+
+
+var orig = 'ооо';
+console.log(orig.trim('о',3));
